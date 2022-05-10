@@ -1,0 +1,7 @@
+#burger {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px;
+  z-index: 9999;
+}
