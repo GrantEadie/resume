@@ -1,7 +1,12 @@
-const Main = () => {
-    return (
-        <div>Hello</div>
-    )
-}
+import "./main.css";
+import Splash from "./splash/Splash";
 
-export default Main
+const Main = () => {
+  return (
+    <div id="main">
+      <Splash />
+    </div>
+  );
+};
+
+export default Main;
