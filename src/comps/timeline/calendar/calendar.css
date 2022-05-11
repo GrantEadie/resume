@@ -1,0 +1,38 @@
+#calendar {
+  width: 15%;
+  padding-right: 40px;
+}
+
+.calendar-year {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  width: 100%;
+}
+.calendar-item {
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.calendar-year-text {
+  font-weight: 900;
+  font-style: italic;
+}
+
+.calendar-large-dot {
+  width: 20px;
+  height: 20px;
+  background: var(--yellow);
+  border-radius: 50%;
+}
+.calendar-small-dot {
+  width: 10px;
+  height: 10px;
+  margin: 20px 5px;
+  background: var(--yellow);
+  border-radius: 50%;
+}
