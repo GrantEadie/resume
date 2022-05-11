@@ -6,14 +6,14 @@ import styled from "styled-components";
 import { useLocation } from "react-router-dom";
 
 const Holder = styled.div`
-  padding: ${({ work }) => (work === "/work" ? "100px 0" : null)};
+  padding: ${({ work }) => (!work === "/work" ? "100px 0" : null)} !important;
 `;
 
 const Qualifications = styled.div`
   background: ${({ work }) =>
     work === "/work" ? "var(--yellow)" : "var(--blue)"};
-  color: ${({ work }) => (work !== "/work" ? "var(--yellow)" : "var(--blue)")};
-  padding: ${({ work }) => (work === "/work" ? "200px 0" : null)} !important;
+  padding: ${({ work }) =>
+    work === "/work" ? "200px 0" : "200px 50px"} !important;
 `;
 
 const Timeline = () => {

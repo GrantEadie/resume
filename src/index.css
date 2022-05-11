@@ -2,9 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 :root {
-  --blue: #303c6c;
-  --yellow: #fbe8a6;
-  --orange: #f4976c;
+  --blue: #F6EBE7;
+  --yellow: #071B20;
+  --green: #F9D483;
+  --sub-green: #94C8B0;
+  --red: #F2624C;
+  /* --blue: #071b20;
+  --yellow: #f8b889;
+  --green: #256c6b;
+  --sub-green: #58897f;
+  --red: #f03029; */
 }
 
 body {

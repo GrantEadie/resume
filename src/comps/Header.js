@@ -9,12 +9,10 @@ const Header = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <div id="header">
-        <div id="header-logo">
-            g.e.
-        </div>
+      <div id="header-logo">g.e.</div>
       <div id="burger">
         <Hamburger
-          color={isOpen ? "#303c6c" : "#fbe8a6"}
+          color={!isOpen ? "var(--red)" : "var(--blue)"}
           toggled={isOpen}
           toggle={() => setOpen(!isOpen)}
           size={100}
@@ -22,7 +20,6 @@ const Header = () => {
       </div>
 
       <Menu
-        
         customBurgerIcon={<div></div>}
         isOpen={isOpen}
         onOpen={() => setOpen(true)}
