@@ -2,11 +2,26 @@ import Calendar from "./calendar/Calendar";
 import "./timeline.css";
 import { workExperience, skills, tech } from "./items";
 import { Brain, Cpu } from "phosphor-react";
+import styled from "styled-components";
+import { useLocation } from "react-router-dom";
+
+const Holder = styled.div`
+  padding: ${({ work }) => (work === "/work" ? "100px 0" : null)};
+`;
+
+const Qualifications = styled.div`
+  background: ${({ work }) =>
+    work === "/work" ? "var(--yellow)" : "var(--blue)"};
+  color: ${({ work }) => (work !== "/work" ? "var(--yellow)" : "var(--blue)")};
+  padding: ${({ work }) => (work === "/work" ? "200px 0" : null)} !important;
+`;
 
 const Timeline = () => {
+  const location = useLocation();
+
   return (
-    <div id="second-page-holder">
-      <div id="timeline">
+    <div id="timeline-holder">
+      <Holder id="timeline" work={location.pathname}>
         <div id="calendar-holder">
           <Calendar />
           <div id="timeline-items-holder">
@@ -26,8 +41,8 @@ const Timeline = () => {
             ))}
           </div>
         </div>
-      </div>
-      <div id="qualifications">
+      </Holder>
+      <Qualifications id="qualifications" work={location.pathname}>
         <div className="qualification-list">
           <div className="qualification-title">
             <Brain size={32} weight="fill" />
@@ -50,7 +65,7 @@ const Timeline = () => {
             ))}
           </ul>
         </div>
-      </div>
+      </Qualifications>
     </div>
   );
 };

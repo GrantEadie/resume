@@ -1,4 +1,4 @@
-#second-page-holder {
+#timeline-holder {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -6,7 +6,7 @@
 
 #timeline {
   background: var(--blue);
-  padding: 100px 40px;
+  padding: 200px 40px;
   width: 75%;
   display: flex;
   justify-content: center;

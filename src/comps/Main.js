@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <div id="main">
       <Splash />
-      <Timeline />
+      <Timeline work="false" />
     </div>
   );
 };
