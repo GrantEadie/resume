@@ -1,0 +1,9 @@
+@media screen and (max-width: 800px) {
+  #quick-info {
+    flex-direction: column;
+    min-width: unset;
+  }
+  .quick-info-item {
+    margin: 50px 0;
+  }
+}

@@ -59,10 +59,11 @@
 /* General sidebar styles */
 .bm-menu {
   background: var(--yellow);
-  padding: 2.5em 1.5em 0;
+  padding: 0 !important;
   font-size: 2em;
   color: var(--blue);
   padding: 60px 10px;
+  overflow-y: hidden !important;
 }
 
 .bm-menu a {

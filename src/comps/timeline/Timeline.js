@@ -1,5 +1,6 @@
 import Calendar from "./calendar/Calendar";
 import "./timeline.css";
+import "./timeline-mobile.css";
 import { workExperience, skills, tech } from "./items";
 import { Brain, Cpu } from "phosphor-react";
 import styled from "styled-components";

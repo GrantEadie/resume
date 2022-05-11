@@ -1,0 +1,21 @@
+@media screen and (max-width: 800px) {
+  #calendar {
+    width: unset;
+    padding-right: 10px;
+  }
+
+  .calendar-large-dot {
+    min-width: 15px;
+    height: 15px;
+    border: 2px solid var(--yellow);
+    border-radius: 50%;
+  }
+  .calendar-small-dot {
+    min-width: 5px;
+    height: 5px;
+    margin: 28px 8px;
+    background: var(--yellow);
+    border-radius: 50%;
+  }
+  
+}

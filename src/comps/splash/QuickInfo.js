@@ -1,4 +1,5 @@
 import "./quick-info.css";
+import "./quick-info-mobile.css";
 import { Phone, At, FileCode, LinkedinLogo } from "phosphor-react";
 
 const QuickInfo = () => {

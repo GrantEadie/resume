@@ -1,0 +1,13 @@
+@media screen and (max-width: 800px) {
+  #splash {
+    padding-top: 0px;
+    padding-bottom: 200px;
+  }
+  #splash-name {
+    margin: 40px 0;
+    font-size: 3.5rem;
+  }
+  #splash-desc {
+    width: 100%;
+  }
+}

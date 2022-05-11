@@ -1,0 +1,59 @@
+@media screen and (max-width: 800px) {
+  #timeline-holder {
+    flex-direction: column;
+  }
+  #timeline {
+    background: var(--green);
+    padding: 100px 10px;
+    width: unset;
+    display: flex;
+    justify-content: center;
+  }
+
+  .item-duties li {
+    list-style-type: "";
+    padding: 5px 0px;
+  }
+  #timeline-items-holder {
+    width: unset;
+  }
+  #calendar-holder {
+    padding-right: unset;
+  }
+  .timeline-item {
+    padding-bottom: 10px;
+  }
+
+  .item-job {
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+  .item-title {
+    display: flex;
+    align-items: baseline;
+    font-size: 0.75rem;
+    font-weight: 900;
+  }
+
+  .item-time {
+    font-size: 0.6rem;
+    font-style: italic;
+    padding: 0 10px;
+    min-width: max-content;
+    font-weight: 100;
+  }
+
+  .item-duties {
+    font-size: 0.7rem;
+    padding: 0 0px;
+  }
+  #qualifications {
+    width: unset;
+    background: var(--sub-green);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+  }
+}

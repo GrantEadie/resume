@@ -12,7 +12,6 @@
 }
 .calendar-item {
   padding: 10px;
-
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -21,18 +20,19 @@
 .calendar-year-text {
   font-weight: 900;
   font-style: italic;
+  padding-right: 10px;
 }
 
 .calendar-large-dot {
-  width: 20px;
-  height: 20px;
-  background: var(--yellow);
+  min-width: 15px;
+  height: 15px;
+  border: 2px solid var(--yellow);
   border-radius: 50%;
 }
 .calendar-small-dot {
-  width: 10px;
-  height: 10px;
-  margin: 20px 5px;
+  min-width: 5px;
+  height: 5px;
+  margin: 20px 8px;
   background: var(--yellow);
   border-radius: 50%;
 }

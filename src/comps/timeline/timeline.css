@@ -45,12 +45,12 @@
 
 .item-duties {
   font-size: 0.7rem;
-  padding: 0;
+  padding: 0 0px;
 }
 
 .item-duties li {
   list-style-type: "-";
-  padding: 5px 8px;
+  padding: 5px 5px;
 }
 
 #qualifications {

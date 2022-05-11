@@ -1,4 +1,5 @@
 import "./splash.css";
+import "./splash-mobile.css";
 import { ReactComponent as Computer } from "../../svgs/computer.svg";
 import { ReactComponent as NoteOne } from "../../svgs/note1.svg";
 import { ReactComponent as NoteTwo } from "../../svgs/note2.svg";
